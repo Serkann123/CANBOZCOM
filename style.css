@@ -121,6 +121,10 @@ body {
   margin-bottom: 30px;
 }
 
+.aboutTitle h1{
+  font-size: 40px;
+}
+
 .courseSection {
   background: ghostwhite;
   padding: 100px 40px;
@@ -168,7 +172,7 @@ body {
   color: brown;
 }
 
-.footer{
+.footer {
   background-color: black;
   color: WHITE;
   text-align: center;
@@ -188,6 +192,39 @@ body {
   margin-right: 30px;
 }
 
-.footer p{
+.footer p {
   font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bannerImg,.aboutImg {
+    display: none;
+  }
+
+  .bannerDiv{
+    padding: 20px;
+    text-align: center;
+  }
+
+   .underline{
+    margin: 0 auto 20px auto;
+  }
+ 
+  .aboutInfo{
+    width: 100%;
+  }
+
+  .aboutTitle{
+    text-align: center;
+  }
+
+  .course{
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .footer{
+    padding: 100px 0px;
+  }
 }
