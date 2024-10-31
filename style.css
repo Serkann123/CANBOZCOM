@@ -20,7 +20,7 @@ body {
 }
 
 .banner {
-  /* background: floralwhite; */
+  background: floralwhite;
   padding: 50px 0px;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .aboutSection {
-  /* background-color: azure; */
+  background-color: azure;
   padding: 100px 40px;
 }
 
